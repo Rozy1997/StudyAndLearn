@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: 'Simonetta', cursive;
+}
+
+.navbar {}
+
+.navbar-dark .navbar-nav>.active>.nav-link {
+    color: orange;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: orange;
+}
+
+.nav-link {
+    position: relative;
+}
+
+.nav-link:hover::before {
+    content: '';
+    display: block;
+    width: 100%;
+    left: 0px;
+    position: absolute;
+    height: 2px;
+    z-index: -1;
+    background-color: orange;
+}
+
+
+/* .nav-link:hover::after {
+    content: '';
+    display: block;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    position: absolute;
+    height: 2px;
+    z-index: -1;
+    background-color: orange;
+} */
+
+.dropdown-item {
+    background-color: black;
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: orange;
+}
+
+.sec1 div {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.poster {
+    background: url("2.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.head {
+    font-size: 60px;
+    font-family: 'Squada One', cursive;
+    font-style: italic;
+    color: orange;
+}
+
+h5 {
+    font-family: 'Noto Serif', serif;
+}
+
+.tag {
+    font-size: 30px;
+    font-family: 'Squada One', cursive;
+    font-style: italic;
+    color: orange;
+}
+
+.title {
+    font-family: 'Squada One', cursive;
+    font-size: 40px;
+    color: orangered;
+    text-shadow: 2px 2px 1px black;
+    animation: infinite 10s;
+}
+
+.title span::after {
+    position: absolute;
+    left: 2%;
+    content: '';
+    display: block;
+    width: 100%;
+    position: absolute;
+    height: 2px;
+    z-index: 9999;
+    background-color: orangered;
+}
+
+.progress-title {
+    font-weight: bold;
+    font-size: small;
+}
+
+.about-img {
+    width: 100px;
+    height: 100px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.sec2 div {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.poster2 {
+    background: url("1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.item {
+    text-align: center;
+}
+
+.img-size {
+    background-color: white;
+    width: 150px;
+    height: 130px;
+    margin-top: 10px;
+    padding: 30px !important;
+    border-radius: 30%;
+    border: 5px solid gray;
+    animation: pulse infinite .5s;
+}
+
+
+/* courses part */
+
+.title2 {
+    font-family: 'Squada One', cursive;
+    font-size: 40px;
+    color: orangered;
+    text-shadow: 2px 2px 2px blue;
+}
+
+.course-img {
+    width: 100%;
+    height: 80vh;
+    background-image: url(women-books-reading-wallpaper-preview.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.course-img h3 {
+    font-family: 'Anton', sans-serif;
+    color: tomato;
+}
+
+.course-img button {
+    background-color: blue;
+    color: white;
+    border-radius: 12px;
+    padding: 5px;
+    animation: pulse infinite .5s;
+}
+
+
+/* metarial section */
+
+.sec3 div {
+    width: 100%;
+    height: 50vh;
+    box-sizing: border-box;
+}
+
+.poster3 {
+    background: url("thumb-1920-411522.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.card-style {
+    box-shadow: 2px 2px 2px 5px gray;
+    border-radius: 12px;
+}
+
+.card-style img {
+    box-shadow: 2px 2px 2px 2px black;
+    width: 200px;
+    height: 200px;
+}
+
+.card-style a {
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+}
+
+.sec4 div {
+    width: 100%;
+    height: 50vh;
+    box-sizing: border-box;
+}
+
+.poster4 {
+    background-image: url(book.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+
+/* footer */
+
+.sec5 div {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.poster5 {
+    background-color: black;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+
+/* caarosal part */
+
+.carousel-inner .carousel-item {
+    height: 400px;
+}
+
+.carousel-item img {
+    height: 500px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.owl-nav {
+    width: 50px;
+    top: 300px;
+    position: absolute;
+    background-color: ;
+    left: 50%;
+}
+
+.owl-dot {
+    width: 50px;
+    top: 300px;
+    position: absolute;
+    background-color: ;
+    left: 50%;
+}
+
+.owl-nav button.owl-next,
+.owl-prev,
+button.owl-dot {
+    font-size: 30px !important;
+    color: white !important;
+}
+
+.test-img img {
+    box-shadow: 1px 1px 5px 2px white;
+    top: 200px;
+    position: absolute;
+    right: 50px;
+    width: 100px;
+    height: 60px;
+}
+
+.testi-text {
+    background-color: rgb(31, 231, 231);
+    color: black;
+    font-size: 15px;
+    height: 150px;
+    width: 300px;
+}
+
+.arrow::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 32px;
+    background-color: rgb(31, 231, 231);
+    top: 33%;
+    left: 109px;
+    z-index: -1;
+    transform: rotateZ(25deg);
+}
